@@ -24,9 +24,6 @@ app.use('/api/generate', require('./routes/generate'));
 app.use('/api/payment', require('./routes/payment'));
 app.use('/api/images', require('./routes/images'));
 
-app.get('/', (req, res) => {
-  res.send('API is running successfully. Go to the frontend to use the app.');
-});
 
 // Health check route
 app.get('/api/health', (req, res) => {
