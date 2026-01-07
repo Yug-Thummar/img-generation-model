@@ -3,7 +3,7 @@ import axios from 'axios'
 // Base API configuration
 const api = axios.create({
   baseURL: import.meta.env.PROD 
-    ? 'https://img-generation-model.onrender.com//api' 
+    ? 'https://img-generation-model.onrender.com/api' 
     : '/api',
   headers: {
     'Content-Type': 'application/json',
