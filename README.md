@@ -1,3 +1,4 @@
+preview : https://img-generation-frontend.onrender.com/
 # Pixel AI - AI Image Generator 🎨
 
 Pixel AI is a full-stack SaaS (Software as a Service) application that allows users to generate high-quality images from text prompts using advanced AI models. It features a complete user authentication system, subscription-based pricing models, and a personal gallery to manage generated artwork.
